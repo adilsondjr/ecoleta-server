@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from './Header'
 
+// JSX: Sintaxe de XML dentro do JavScript
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Header />
+
+      <h1>Conteudo da app</h1>
+    </div>
   );
 }
 
