@@ -6,7 +6,7 @@ import Header from './Header'
 function App() {
   return (
     <div>
-      <Header />
+      <Header title="Hello Wortd!"/>
 
       <h1>Conteudo da app</h1>
     </div>
