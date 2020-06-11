@@ -143,7 +143,7 @@ const CreatePoint = () => {
                             <select name="uf" id="uf" value={selectedUf} onChange={handleSelectUf}>
                                 <option value="0">Selecione uma UF</option>
                                 {ufs.map(uf => (
-                                    <option value={uf}>{uf}</option>
+                                    <option key={uf} value={uf}>{uf}</option>
                                 ))}
                             </select>
                         </div>
